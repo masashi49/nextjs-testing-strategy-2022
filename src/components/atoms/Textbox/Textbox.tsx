@@ -1,6 +1,4 @@
-import clsx from "clsx";
 import { ComponentPropsWithoutRef, forwardRef } from "react";
-import styles from "./styles.module.css";
 
 export const Textbox = forwardRef<
   HTMLInputElement,
@@ -11,7 +9,6 @@ export const Textbox = forwardRef<
       type="text"
       {...props}
       ref={ref}
-      className={clsx(className, styles.module)}
     />
   );
 });

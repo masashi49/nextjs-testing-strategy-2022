@@ -10,7 +10,7 @@
     "typecheck": "tsc --noEmit",
     "test": "jest --coverage",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
-    "storybook": "start-storybook -p 6006"
+    "sb": "start-storybook -p 6006"
   },
   "dependencies": {
     "@hookform/resolvers": "^2.8.10",
